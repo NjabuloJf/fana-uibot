@@ -1,0 +1,9 @@
+{
+  "name": "Lara Lite Bot",
+  "description": "WhatsApp pair server + bot",
+  "stack": "heroku-22",
+  "buildpacks": [{ "url": "heroku/nodejs" }],
+  "env": {
+    "WEBSITE_URL": { "value": "*", "required": false }
+  }
+}
